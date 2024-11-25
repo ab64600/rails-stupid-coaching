@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="my-4">Coach's Answer</h1>
+
+  <blockquote class="question">
+    <p><%= params[:question] %></p>
+    <footer><i>- You</i></footer>
+  </blockquote>
+
+  <blockquote class="answer">
+    <b><%= @answer %></b>
+    <footer><i>- Your Coach</i></footer>
+  </blockquote>
+
+  <div>
+    <%= link_to "Ask another question", ask_path, class: "btn btn-primary btn-back" %>
+  </div>
+</div>

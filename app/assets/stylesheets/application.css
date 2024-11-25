@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ /* app/assets/stylesheets/application.css */
+
+/* Style général de la page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+blockquote {
+  padding: 15px;
+  margin: 20px 0;
+  border-left: 5px solid #b6b6b6;
+
+}
+
+blockquote.question {
+  background-color: #e9ecef;
+}
+
+blockquote.answer {
+  background-color: #fffbd4;
+}
